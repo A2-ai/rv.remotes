@@ -8,9 +8,10 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Depends:
+Imports:
     tibble (>= 3.2.0),
-    glue (>= 1.7.0),
+    glue (>= 1.7.0)
 Remotes:
-    tidyverse/tibble@v3.2.1.9054,
-    tidyverse/glue@main
+    tidyverse/glue,
+    tidyverse/tibble@v3.2.1.9054
+    
