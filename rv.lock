@@ -755,16 +755,6 @@ force_source = false
 dependencies = []
 
 [[packages]]
-name = "rv.remotes"
-version = "0.0.1"
-source = { path = "." }
-force_source = true
-dependencies = [
-    { name = "tibble", requirement = "(>= 3.2.0)" },
-    { name = "glue", requirement = "(>= 1.7.0)" },
-]
-
-[[packages]]
 name = "rversions"
 version = "2.1.2"
 source = { repository = "https://packagemanager.posit.co/cran/2024-01-01" }

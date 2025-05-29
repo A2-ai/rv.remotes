@@ -15,12 +15,8 @@ repositories = [
     # {name = "dplyr", git = "https://github.com/tidyverse/dplyr.git", tag = "v1.1.4"},
     # {name = "dplyr", path = "/path/to/local/dplyr"},
 dependencies = [
-    { name = "rv.remotes", path = "." },
+    { name = "rv.remotes", path = ".", dependencies_only = true },
     "devtools",
-]
-
-prefer_repositories_for = [
-    "tibble"
 ]
 
 
