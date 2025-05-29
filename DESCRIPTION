@@ -1,0 +1,16 @@
+Package: rv.remotes
+Title: Package with Remote Dependencies
+Version: 0.0.1
+Authors@R: 
+    person("rv", "user", , "rv.user@a2-ai.com", role = c("aut", "cre"))
+Description: This package contains dependencies as remotes
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    tibble (>= 3.2.0),
+    glue (>= 1.7.0),
+Remotes:
+    tidyverse/tibble@v3.2.1.9054,
+    tidyverse/glue@main
